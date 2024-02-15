@@ -40,7 +40,7 @@ var boton3 = document.querySelector("#btn-copy"); boton3.onclick = copiar;
 function SoloLetras(e){
     key = e.keyCode || e.which;
     tecla = String.fromCharCode(key).toString();
-    letras = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+    letras = "ABCDEFGHIJKLMNÑOPQRSTUVWXYZ abcdefghijklmnñopqrstuvwxyz";
     especiales = [8,13];
     tecla_especial = false
     for(var i in especiales){
